@@ -1,0 +1,127 @@
+*{box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; margin:0; padding:0;}
+a img{border:0;}
+form *{outline:none;}
+
+$font-family: 'Jost', sans-serif;
+$title-font-family: 'Updock', sans-serif;
+
+body{
+    background: rgba(212, 176, 165, 0.1); color:#323232; font:16px $font-family;
+}
+
+.container{
+    margin:0 auto; max-width:1215px; width:95%;
+}
+
+header{
+    padding:15px 0 0; text-align:center;
+
+    h1{
+        color:#937972; font:75px $title-font-family;
+    }
+
+    p{
+        color:#555;
+    }
+}
+
+main{
+    padding:40px 0;
+
+    .container{
+        display:grid; gap:30px; grid-template-columns: repeat(4, 1fr);
+    }
+
+    .presente{
+        background:#fff; border-radius:6px; box-shadow: 0 1px 6px #0000000f; overflow:hidden; position:relative;
+
+        .thumb{
+            img{
+                object-fit:cover; transition:all 0.3s; width:100%;
+            }
+        }
+
+        &:hover{
+            .thumb{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+
+            .descricao{
+                h2{
+                    color:#624a44;
+                }
+            }
+        }
+
+        .descricao{
+            padding:20px;
+
+            h2{
+                font-size:20px; font-weight:500; line-height:105%; margin:0 0 5px;
+            }
+
+            .valor{
+                color:#939580;
+            }
+
+            .comprar{
+                height:100%; left:0; overflow:hidden; position:absolute; text-indent:-99999px; top:0; width:100%;
+            }
+
+            .etiqueta-comprado{
+                background: #937972; color:#fff; right:-40px; padding:3px; position:absolute; text-align:center; transform:rotate(-40deg); bottom:45px; width:230px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:920px) {
+    main{
+        .container{
+            gap:20px; grid-template-columns: repeat(3, 1fr);
+        }   
+    }
+}
+
+@media all and (max-width:715px) {
+    main{
+        .container{
+            gap:20px; grid-template-columns: repeat(2, 1fr);
+        }   
+    }
+}
+
+@media all and (max-width:480px) {
+
+    header{
+        h1{
+            font-size:15vw; margin:0 0 10px;
+        }
+    }
+
+    main{
+        .container{
+            gap:15px;
+        }
+
+        .presente{
+            .descricao{
+                padding:13px;
+
+                h2{
+                    font-size:18px;
+                }
+
+                .valor{
+                    font-size:15px;
+                }
+
+                .etiqueta-comprado{
+                    bottom:40px;
+                }
+            }
+        }   
+    }
+}

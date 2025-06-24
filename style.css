@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a img {
+  border: 0;
+}
+
+form * {
+  outline: none;
+}
+
+body {
+  background: rgba(212, 176, 165, 0.1);
+  color: #323232;
+  font: 16px "Jost", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1215px;
+  width: 95%;
+}
+
+header {
+  padding: 15px 0 0;
+  text-align: center;
+}
+header h1 {
+  color: #937972;
+  font: 75px "Updock", sans-serif;
+}
+header p {
+  color: #555;
+}
+
+main {
+  padding: 40px 0;
+}
+main .container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+main .presente {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.0588235294);
+  overflow: hidden;
+  position: relative;
+}
+main .presente .thumb img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+  width: 100%;
+}
+main .presente:hover .thumb img {
+  transform: scale(1.1);
+}
+main .presente:hover .descricao h2 {
+  color: #624a44;
+}
+main .presente .descricao {
+  padding: 20px;
+}
+main .presente .descricao h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 105%;
+  margin: 0 0 5px;
+}
+main .presente .descricao .valor {
+  color: #939580;
+}
+main .presente .descricao .comprar {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -99999px;
+  top: 0;
+  width: 100%;
+}
+main .presente .descricao .etiqueta-comprado {
+  background: #937972;
+  color: #fff;
+  right: -40px;
+  padding: 3px;
+  position: absolute;
+  text-align: center;
+  transform: rotate(-40deg);
+  bottom: 45px;
+  width: 230px;
+}
+
+@media all and (max-width: 920px) {
+  main .container {
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (max-width: 715px) {
+  main .container {
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (max-width: 480px) {
+  header h1 {
+    font-size: 15vw;
+    margin: 0 0 10px;
+  }
+  main .container {
+    gap: 15px;
+  }
+  main .presente .descricao {
+    padding: 13px;
+  }
+  main .presente .descricao h2 {
+    font-size: 18px;
+  }
+  main .presente .descricao .valor {
+    font-size: 15px;
+  }
+  main .presente .descricao .etiqueta-comprado {
+    bottom: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

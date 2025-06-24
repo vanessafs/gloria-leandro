@@ -1,0 +1,59 @@
+[
+  {
+    "imagem": "imagens/liquidificador.webp",
+    "titulo": "Liquidificador top",
+    "valor": "R$ 250,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  },
+  {
+    "imagem": "imagens/jogo-de-pratos.webp",
+    "titulo": "Jogo de Pratos",
+    "valor": "R$ 320,00",
+    "link": "https://amazon.com/",
+    "comprado": true
+  },
+  {
+    "imagem": "imagens/liquidificador.webp",
+    "titulo": "Liquidificador top",
+    "valor": "R$ 250,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  },
+  {
+    "imagem": "imagens/jogo-de-pratos.webp",
+    "titulo": "Jogo de Pratos",
+    "valor": "R$ 320,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  },
+  {
+    "imagem": "imagens/liquidificador.webp",
+    "titulo": "Liquidificador top",
+    "valor": "R$ 250,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  },
+  {
+    "imagem": "imagens/jogo-de-pratos.webp",
+    "titulo": "Jogo de Pratos",
+    "valor": "R$ 320,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  },
+  {
+    "imagem": "imagens/liquidificador.webp",
+    "titulo": "Liquidificador top",
+    "valor": "R$ 250,00",
+    "link": "https://amazon.com/",
+    "comprado": true
+  },
+  {
+    "imagem": "imagens/jogo-de-pratos.webp",
+    "titulo": "Jogo de Pratos",
+    "valor": "R$ 320,00",
+    "link": "https://amazon.com/",
+    "comprado": false
+  }
+  
+]

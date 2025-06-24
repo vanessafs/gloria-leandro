@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gloria & Leandro - Lista de Presentes</title>
+    <title>Glória & Leandro - Lista de Presentes</title>
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Updock&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:title" content="Lista de Presentes - Glória & Leandro" />
+    <meta property="og:description" content="Escolha um presente e nos ajude a montar nosso lar ❤️" />
+    <meta property="og:image" content="https://vanessafs.github.io/gloria-leandro/imagens/og-imagem.jpg" />
+    <meta property="og:url" content="https://vanessafs.github.io/gloria-leandro/" />
+    <meta property="og:type" content="website" />
+
 </head>
-<body>
-    
+
+<body x-data="listaPresentes()" x-init="carregar()">
+
+    <header>
+        <div class="container">
+            <h1>Glória & Leandro</h1>
+            <p class="frase">Uma forma carinhosa de nos ajudar a montar o nosso lar ❤️</p>
+        </div>
+    </header>
+
+    <main class="presentes">
+        <div class="container">
+            <template x-for="presente in presentes" :key="index">
+                <div class="presente" :class="{ 'comprado': presente.comprado }">
+                    <div class="thumb">
+                        <img :src="presente.imagem" :alt="presente.titulo">
+                    </div>
+                    <div class="descricao">
+                        <h2 x-text="presente.titulo"></h2>
+                        <p class="valor" x-text="presente.valor"></p>
+                        <template x-if="!presente.comprado">
+                            <a :href="presente.link" target="_blank" class="comprar"><span>Ver presente</span></a>
+                        </template>
+                        <template x-if="presente.comprado">
+                            <span class="etiqueta-comprado">Já comprado</span>
+                        </template>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </main>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <script>
+        function listaPresentes() {
+            return {
+                presentes: [],
+                async carregar() {
+                    const res = await fetch('produtos.json');
+                    this.presentes = await res.json();
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>
