@@ -4,7 +4,7 @@
 		"titulo": "Jogo de Panelas",
 		"valor": "R$ 695,20",
 		"link": "https://www.amazon.com.br/Brinox-Conjunto-Panelas-Ceramic-Vanilla/dp/B07C4NLYSH/ref=asc_df_B07C4NLYSH?mcid=30aa9d2556b132a89c45575f99021a80&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=11354204437793892788&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-834032396365&language=pt_BR&gad_source=1&th=1",
-		"comprado": false
+		"comprado": true
 	},
 	{
 		"imagem": "imagens/armario-cozinha.jpg",
@@ -30,8 +30,8 @@
 	{
 		"imagem": "imagens/sofa.jpg",
 		"titulo": "Sofá Retrátil e Reclinável ",
-		"valor": "R$ 1.282,41",
-		"link": "https://m.magazineluiza.com.br/sofa-retratil-e-reclinavel-ipanema-210m-em-tecido-veludao-c-03-modulos-montagem-inclusa-veneza-estofados/p/cha61dbgf3/mo/msof/",
+		"valor": "R$ 2.209,00",
+		"link": "https://www.magazineluiza.com.br/sofa-retratil-e-reclinavel-215m-molas-ensacadas-cama-inbox-spazus-com-bordado-3d-velusoft-cinza/p/gc0970gb41/mo/msof/?partner_id=64068&utm_source=pdp&utm_medium=share",
 		"comprado": false
 	},
 	{
@@ -53,7 +53,7 @@
 		"titulo": "Rack Com Painel",
 		"valor": "R$ 517,63",
 		"link": "https://www.leroymerlin.com.br/rack-com-painel-para-tv-ate-65-polegadas-com-ripado-esmeralda--buriti-fendi_1571428728?region=outros&srsltid=AfmBOoom_nJdqDRuRhw_KTxVhyze_qjnMc_RpLsjalNXF713Ux8nGwJH6tE",
-		"comprado": false
+		"comprado": true
 	},
 	{
 		"imagem": "imagens/geladeira.jpg",
