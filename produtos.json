@@ -1,59 +1,72 @@
 [
-  {
-    "imagem": "imagens/liquidificador.webp",
-    "titulo": "Liquidificador top",
-    "valor": "R$ 250,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  },
-  {
-    "imagem": "imagens/jogo-de-pratos.webp",
-    "titulo": "Jogo de Pratos",
-    "valor": "R$ 320,00",
-    "link": "https://amazon.com/",
-    "comprado": true
-  },
-  {
-    "imagem": "imagens/liquidificador.webp",
-    "titulo": "Liquidificador top",
-    "valor": "R$ 250,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  },
-  {
-    "imagem": "imagens/jogo-de-pratos.webp",
-    "titulo": "Jogo de Pratos",
-    "valor": "R$ 320,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  },
-  {
-    "imagem": "imagens/liquidificador.webp",
-    "titulo": "Liquidificador top",
-    "valor": "R$ 250,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  },
-  {
-    "imagem": "imagens/jogo-de-pratos.webp",
-    "titulo": "Jogo de Pratos",
-    "valor": "R$ 320,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  },
-  {
-    "imagem": "imagens/liquidificador.webp",
-    "titulo": "Liquidificador top",
-    "valor": "R$ 250,00",
-    "link": "https://amazon.com/",
-    "comprado": true
-  },
-  {
-    "imagem": "imagens/jogo-de-pratos.webp",
-    "titulo": "Jogo de Pratos",
-    "valor": "R$ 320,00",
-    "link": "https://amazon.com/",
-    "comprado": false
-  }
-  
+	{
+		"imagem": "imagens/jogo-panelas.jpg",
+		"titulo": "Jogo de Panelas",
+		"valor": "R$ 695,20",
+		"link": "https://www.amazon.com.br/Brinox-Conjunto-Panelas-Ceramic-Vanilla/dp/B07C4NLYSH/ref=asc_df_B07C4NLYSH?mcid=30aa9d2556b132a89c45575f99021a80&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=11354204437793892788&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-834032396365&language=pt_BR&gad_source=1&th=1",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/armario-cozinha.jpg",
+		"titulo": "Armário de Cozinha",
+		"valor": "R$ 1.484,99",
+		"link": "https://www.madesa.com/armario-cozinha-completa-300cm-branco-rustic-diamante-madesa-02/p?utm_source=google&utm_medium=cpc&utm_campaign=Ecom_Fundo_R1_GSH_Pmax_Superior&utm_term=&utm_campaign=Ecom_Fundo_R1_GSH_Pmax_Superior&utm_source=adwords&utm_medium=ppc&hsa_acc=9196574805&hsa_cam=18005460605&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17999823496&gbraid=0AAAAACoUp91PfiQsI7Pf6Kc6gohB-aKbM&gclid=CjwKCAjwmenCBhA4EiwAtVjzmlWRHH4A5DNPiHQbucCRyhRC8fugcQ3vYwIeF0OR53gZDmBOFl3NsRoCI7oQAvD_BwE",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/air-fryer.jpg",
+		"titulo": "Air Fryer ",
+		"valor": "R$ 749,90",
+		"link": "https://www.amazon.com.br/Fritadeira-Fryer-Duplo-Cesto-Mondial/dp/B0C6FT4QYV/ref=asc_df_B0C6FT4QYV?mcid=db9ebe41f06b35068f1e3dc4a120a898&tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=17134348289080410745&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-2201507765416&language=pt_BR&gad_source=1&th=1",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/purificador-agua.jpg",
+		"titulo": "Purificador de Água",
+		"valor": " R$ 649,90",
+		"link": "https://www.amazon.com.br/Purificador-Electrolux-Compacto-Cinza-Bivolt/dp/B08X66RQ48/ref=asc_df_B08X66RQ48?mcid=5a1a0394a62833f99192eabcd17f6a62&tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=6077385286255628636&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-1188621312704&language=pt_BR&gad_source=1&th=1",
+		"comprado": false
+	},	
+	{
+		"imagem": "imagens/sofa.jpg",
+		"titulo": "Sofá Retrátil e Reclinável ",
+		"valor": "R$ 1.282,41",
+		"link": "https://m.magazineluiza.com.br/sofa-retratil-e-reclinavel-ipanema-210m-em-tecido-veludao-c-03-modulos-montagem-inclusa-veneza-estofados/p/cha61dbgf3/mo/msof/",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/cama.jpg",
+		"titulo": "Cama Box Super King",
+		"valor": "R$ 3.589,00",
+		"link": "https://www.madeiramadeira.com.br/cama-box-super-king-colchao-molas-ensacadas-cama-inbox-com-euro-pillow-frost-thermogel-193x203x70-274205186.html",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/guarda-roupa.jpg",
+		"titulo": "Guarda-roupa",
+		"valor": "R$ 1.471,10",
+		"link": "https://www.madeiramadeira.com.br/guarda-roupa-casal-6-portas-com-pes-imperio-100-mdf-899081.html",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/rack-tv.jpg",
+		"titulo": "Rack Com Painel",
+		"valor": "R$ 517,63",
+		"link": "https://www.leroymerlin.com.br/rack-com-painel-para-tv-ate-65-polegadas-com-ripado-esmeralda--buriti-fendi_1571428728?region=outros&srsltid=AfmBOoom_nJdqDRuRhw_KTxVhyze_qjnMc_RpLsjalNXF713Ux8nGwJH6tE",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/geladeira.jpg",
+		"titulo": "Geladeira Brastemp Frost Free",
+		"valor": "R$ 4.686,36",
+		"link": "https://www.brastemp.com.br/geladeira-brastemp-frost-free-inverse-588-litros-cor-inox-com-smart-bar-bre85ak/p?idsku=326031134&gad_source=1&gad_campaignid=21161988368&gbraid=0AAAAADJ0BqrbIzW4poAYIi08VevE97MQl&gclid=Cj0KCQjw097CBhDIARIsAJ3-nxcHMIhqzTTMEe_2too7V76ApvbxQHREpd6qQd-cQIidN4YhD69AARkaAhBtEALw_wcB",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/tv.jpg",
+		"titulo": "Smart TV",
+		"valor": "R$ 2.355,05",
+		"link": "https://m.magazineluiza.com.br/smart-tv-60-4k-uhd-led-samsung-60du7700-wi-fi-bluetooth-alexa-3-hdmi/p/238243400/et/tves/?&seller_id=magazineluiza&utm_source=google&utm_medium=cpc&utm_term=79710&utm_campaign=google_eco_per_ven_pla_tc_apo_1p_et-csp&utm_content=&partner_id=79710&gclsrc=aw.ds&gad_source=1&gad_campaignid=22561248932&gbraid=0AAAAAD4zZmQ91H6kHU0m_Mx9fyZV9Z_D9&gclid=CjwKCAjw9uPCBhATEiwABHN9K_I-VjnrWlqv0sV7T5nw8n8n49hXHQfn9b4s3FhWVim_syQFQrwtjhoCNiQQAvD_BwE",
+		"comprado": false
+	}
 ]
