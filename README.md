@@ -1,2 +1,2 @@
-# gloria-leandro
+# Gloria&Leandro
 Lista de presentes
