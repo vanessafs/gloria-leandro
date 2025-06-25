@@ -36,9 +36,9 @@
 	},
 	{
 		"imagem": "imagens/cama.jpg",
-		"titulo": "Cama Box Super King",
-		"valor": "R$ 3.589,00",
-		"link": "https://www.madeiramadeira.com.br/cama-box-super-king-colchao-molas-ensacadas-cama-inbox-com-euro-pillow-frost-thermogel-193x203x70-274205186.html",
+		"titulo": "Cama Box King",
+		"valor": "R$ 2.979,88",
+		"link": "https://www.probel.com.br/conjunto-box-king-mola-ensacada-probel-excede-premium/p?skuId=1100",
 		"comprado": false
 	},
 	{
@@ -68,5 +68,33 @@
 		"valor": "R$ 2.355,05",
 		"link": "https://m.magazineluiza.com.br/smart-tv-60-4k-uhd-led-samsung-60du7700-wi-fi-bluetooth-alexa-3-hdmi/p/238243400/et/tves/?&seller_id=magazineluiza&utm_source=google&utm_medium=cpc&utm_term=79710&utm_campaign=google_eco_per_ven_pla_tc_apo_1p_et-csp&utm_content=&partner_id=79710&gclsrc=aw.ds&gad_source=1&gad_campaignid=22561248932&gbraid=0AAAAAD4zZmQ91H6kHU0m_Mx9fyZV9Z_D9&gclid=CjwKCAjw9uPCBhATEiwABHN9K_I-VjnrWlqv0sV7T5nw8n8n49hXHQfn9b4s3FhWVim_syQFQrwtjhoCNiQQAvD_BwE",
 		"comprado": false
+	},
+	{
+		"imagem": "imagens/maquina-lavar.jpg",
+		"titulo": "Lavadora de Roupas",
+		"valor": "R$ 2.199,00",
+		"link": "https://www.casasbahia.com.br/lavadora-de-roupas-brastemp-15kg-bwf15ab-com-ciclo-tira-manchas-advanced-ciclo-antibolinhas-e-smart-sensor-branca-220v/p/55065268",
+		"comprado": false
+	},
+	{
+		"imagem": "imagens/microondas.jpg",
+		"titulo": "Micro-ondas",
+		"valor": "R$ 937,38",
+		"link": "https://www.casasbahia.com.br/micro-ondas-electrolux-com-31-litros-de-capacidade-prata-mi41s/p/1508880212?utm_campaign=cb_all_gg_search_core_eldo_padrao&utm_medium=cpc&utm_source=gp_search",
+		"comprado": true
+	},
+	{
+		"imagem": "imagens/sala-jantar.jpg",
+		"titulo": "Conjunto Sala de Jantar",
+		"valor": "R$ 1.399,98",
+		"link": "https://www.madeiramadeira.com.br/conjunto-sala-de-jantar-mesa-tampo-dakota-plus-vidro-160x80cm-com-6-cadeiras-luisa-yescasa-739204.html",
+		"comprado": true
+	},
+	{
+		"imagem": "imagens/fogao.jpg",
+		"titulo": "Fogão",
+		"valor": "R$ 2.329,00",
+		"link": "https://www.magazineluiza.com.br/fogao-supreme-timer-glass-5-bocas-300000755-dako/p/bgbd074j7j/ed/fg4b/?partner_id=64068&utm_source=pdp&utm_medium=share",
+		"comprado": true
 	}
 ]
