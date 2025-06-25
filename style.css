@@ -114,6 +114,10 @@ main .presente .descricao .etiqueta-comprado {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
+  main .presente .descricao .etiqueta-comprado {
+    bottom: 35px;
+    right: -60px;
+  }
 }
 @media all and (max-width: 480px) {
   header h1 {
@@ -131,8 +135,5 @@ main .presente .descricao .etiqueta-comprado {
   }
   main .presente .descricao .valor {
     font-size: 15px;
-  }
-  main .presente .descricao .etiqueta-comprado {
-    bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

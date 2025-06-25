@@ -92,6 +92,14 @@ main{
         .container{
             gap:20px; grid-template-columns: repeat(2, 1fr);
         }   
+
+        .presente{
+            .descricao{
+                .etiqueta-comprado{
+                    bottom:35px; right:-60px; 
+                }
+            }
+        }
     }
 }
 
@@ -118,10 +126,6 @@ main{
 
                 .valor{
                     font-size:15px;
-                }
-
-                .etiqueta-comprado{
-                    bottom:40px;
                 }
             }
         }   
