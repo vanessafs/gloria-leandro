@@ -73,7 +73,7 @@ main{
             }
 
             .etiqueta-comprado{
-                background: #937972; color:#fff; right:-40px; padding:3px; position:absolute; text-align:center; transform:rotate(-40deg); bottom:45px; width:230px;
+                background:#750c0c; color:#fff; left:-45px; padding:3px; position:absolute; text-align:center; transform:rotate(-45deg); top:55px; width:230px;
             }
         }
     }
@@ -92,14 +92,6 @@ main{
         .container{
             gap:20px; grid-template-columns: repeat(2, 1fr);
         }   
-
-        .presente{
-            .descricao{
-                .etiqueta-comprado{
-                    bottom:35px; right:-60px; 
-                }
-            }
-        }
     }
 }
 

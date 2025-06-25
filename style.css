@@ -92,14 +92,14 @@ main .presente .descricao .comprar {
   width: 100%;
 }
 main .presente .descricao .etiqueta-comprado {
-  background: #937972;
+  background: #750c0c;
   color: #fff;
-  right: -40px;
+  left: -45px;
   padding: 3px;
   position: absolute;
   text-align: center;
-  transform: rotate(-40deg);
-  bottom: 45px;
+  transform: rotate(-45deg);
+  top: 55px;
   width: 230px;
 }
 
@@ -113,10 +113,6 @@ main .presente .descricao .etiqueta-comprado {
   main .container {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-  }
-  main .presente .descricao .etiqueta-comprado {
-    bottom: 35px;
-    right: -60px;
   }
 }
 @media all and (max-width: 480px) {
