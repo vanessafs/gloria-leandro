@@ -18,7 +18,7 @@
 		"titulo": "Air Fryer ",
 		"valor": "R$ 749,90",
 		"link": "https://www.amazon.com.br/Fritadeira-Fryer-Duplo-Cesto-Mondial/dp/B0C6FT4QYV/ref=asc_df_B0C6FT4QYV?mcid=db9ebe41f06b35068f1e3dc4a120a898&tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=17134348289080410745&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031944&hvtargid=pla-2201507765416&language=pt_BR&gad_source=1&th=1",
-		"comprado": false
+		"comprado": true
 	},
 	{
 		"imagem": "imagens/purificador-agua.jpg",
